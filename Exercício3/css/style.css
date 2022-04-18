@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(../pages/DancingScript-VariableFont_wght.ttf);
+}
+
+body{
+    /*
+    background: url(../images/Fundo/pexels-pixabay-326268.jpg);
+    background-size: cover;
+    */
+    display: flex;
+    flex-direction: column;
+    height:100vh; 
+    margin:0; 
+    background-color: rgb(230, 230, 230);
+}
+
+.cabeçalho nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+
+
+.cabeçalho nav ul{
+    padding-top: 25px;
+}
+
+.cabeçalho nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+    
+}
+.cabeçalho nav ul li a:hover{
+    background-color: rgb(80, 5, 5);
+}
+
+h1{
+    text-align: left;
+    font-family: 'Dancing Script';
+    font-weight: bolder;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+header{
+    background-color: rgb(99, 5, 5);
+    padding: 50px;
+    min-height: 50px;
+}
+
+nav{
+    text-align: right;
+}
+
+main{
+    /*
+    max-width: 1000px;
+    min-width: 320px;
+    */
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 20px;
+    /*
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    */
+    /*
+    margin: auto;
+    
+    margin-bottom: 40px;
+    box-shadow: 1px 5px 5px rgb(88, 88, 88);
+    */
+}
+
+main p {
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+    background-color: rgb(99, 5, 5);
+    margin-top: auto;
+    min-height: 50px;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quadro{
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+.quadro img{
+    width: 240px;
+
+}
+.nomeReceita{
+    color: rgb(99, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 15px;
+    
+}
+
+
+
+.listaReceita{
+    list-style: square;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.iconeIngrediente{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    border-top: 2px rgb(99, 5, 5) dashed;
+    
+}
+.iconeIngrediente p{
+    display: block;
+    justify-content: center;
+    color: rgb(99, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
